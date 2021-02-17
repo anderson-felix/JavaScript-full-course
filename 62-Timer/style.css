@@ -1,0 +1,41 @@
+body {
+  background-color: #140e1b;
+}
+.home {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px auto;
+  border: 1px #471d43 solid;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #16111d;
+}
+
+#play-btn,
+#pause-btn,
+#stop-btn {
+  display: flex;
+  flex-direction: row;
+  width: 80px;
+  margin: 10px auto;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.clock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.pause {
+  color: red;
+}
+.play {
+  color: green;
+}
