@@ -1,0 +1,17 @@
+* {
+  background-color: #22223b;
+}
+.data {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 200px 300px;
+  border: 1px solid #ff006e;
+  border-radius: 6px;
+  background-color: white;
+}
+.container h1 {
+  background-color: white;
+  font-family: "Fira Code";
+}
