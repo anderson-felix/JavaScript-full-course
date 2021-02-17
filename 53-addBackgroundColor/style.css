@@ -1,0 +1,35 @@
+* {
+  background-color: #370617;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  justify-content: center;
+  border: 1px #f48c06 solid;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: white;
+}
+.home p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px #370617 solid;
+  border-radius: 8px;
+  padding: 5px;
+  background-color: white;
+}
+
+#btn1,
+#btn2 {
+  display: flex;
+  flex-direction: row;
+  width: 150px;
+  justify-content: center;
+  margin: 10px auto;
+  border: 1px #f48c06 solid;
+  border-radius: 4px;
+  background-color: white;
+}
